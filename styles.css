@@ -98,4 +98,24 @@ h1{
 }
 #footer p{
     font-weight: 600;
+
+}
+@media  screen and (max-width:700px) {
+    #nav-bar a{
+    font-size: 16px;
+    }
+    h1{
+        font-size: 32px;
+        margin-bottom: 5px;
+    }
+    #des{
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    #feather{
+        width: auto;
+    }
+    .feather{
+        font-size: 20px;
+    }
 }
